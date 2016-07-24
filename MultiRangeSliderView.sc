@@ -175,7 +175,7 @@ MultiRangeSliderView {
 	}
 
 	valueAction_ { arg values;
-		if (action.isNil, { }, { action.(values)});
+		if (action.notNil, {action.(values)});
 	}
 }
 
