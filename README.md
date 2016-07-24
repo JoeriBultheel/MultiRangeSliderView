@@ -6,6 +6,7 @@ MultiRangeSliderView is a MultiSliderView with some added functionality. It is i
 * Each slider has a startRange-maximum. Controllable by holding **ctrl**.
 * Each slider has a endRange-minimum. Controllable by holding **alt**.
 * All values are readable by getting the sliders array variable.
+* use .sliderValues_([0.3,0.5,0.9]) to make new sliders.
 
 ## TODO:
 
